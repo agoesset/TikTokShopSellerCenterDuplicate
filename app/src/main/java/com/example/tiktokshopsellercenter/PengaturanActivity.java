@@ -18,7 +18,7 @@ public class PengaturanActivity extends AppCompatActivity {
 
         toBeranda = findViewById(R.id.imageView6);
         toChat = findViewById(R.id.imageView10);
-
+        //coba git
 
         toBeranda.setOnClickListener(new View.OnClickListener() {
             @Override
