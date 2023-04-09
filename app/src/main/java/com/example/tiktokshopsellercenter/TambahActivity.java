@@ -21,7 +21,7 @@ public class TambahActivity extends AppCompatActivity {
         backHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), BerandaActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeFragment.class);
                 startActivity(intent);
             }
         });

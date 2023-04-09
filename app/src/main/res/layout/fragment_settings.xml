@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".PengaturanActivity">
+    android:layout_height="match_parent">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -19,10 +18,10 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.636">
+        app:layout_constraintVertical_bias="0.977">
 
         <View
-            android:id="@+id/view9"
+            android:id="@+id/view122"
             android:layout_width="320dp"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"
@@ -34,7 +33,7 @@
             app:layout_constraintVertical_bias="0.335" />
 
         <ImageView
-            android:id="@+id/imageView32"
+            android:id="@+id/imageView321"
             android:layout_width="20dp"
             android:layout_height="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -46,7 +45,7 @@
             app:srcCompat="@drawable/arrow" />
 
         <ImageView
-            android:id="@+id/imageView31"
+            android:id="@+id/imageView312"
             android:layout_width="25dp"
             android:layout_height="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +57,7 @@
             app:srcCompat="@drawable/maps" />
 
         <TextView
-            android:id="@+id/textView45"
+            android:id="@+id/textView452"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Alamat gudang"
@@ -70,7 +69,7 @@
             app:layout_constraintVertical_bias="0.091" />
 
         <View
-            android:id="@+id/view10"
+            android:id="@+id/view102"
             android:layout_width="320dp"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"
@@ -82,7 +81,7 @@
             app:layout_constraintVertical_bias="0.657" />
 
         <ImageView
-            android:id="@+id/imageView34"
+            android:id="@+id/imageView341"
             android:layout_width="20dp"
             android:layout_height="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -94,7 +93,7 @@
             app:srcCompat="@drawable/arrow" />
 
         <ImageView
-            android:id="@+id/imageView33"
+            android:id="@+id/imageView333"
             android:layout_width="25dp"
             android:layout_height="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -106,7 +105,7 @@
             app:srcCompat="@drawable/tagihan" />
 
         <TextView
-            android:id="@+id/textView46"
+            android:id="@+id/textView463"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mode hari libur"
@@ -192,7 +191,7 @@
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.104">
+        app:layout_constraintVertical_bias="0.555">
 
         <ImageView
             android:id="@+id/imageView17"
@@ -291,7 +290,7 @@
             app:srcCompat="@drawable/arrow" />
 
         <View
-            android:id="@+id/view9"
+            android:id="@+id/view91"
             android:layout_width="320dp"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"
@@ -303,7 +302,7 @@
             app:layout_constraintVertical_bias="0.501" />
 
         <TextView
-            android:id="@+id/textView45"
+            android:id="@+id/textView454"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Informasi bisnis"
@@ -315,7 +314,7 @@
             app:layout_constraintVertical_bias="0.409" />
 
         <ImageView
-            android:id="@+id/imageView32"
+            android:id="@+id/imageView325"
             android:layout_width="20dp"
             android:layout_height="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -327,7 +326,7 @@
             app:srcCompat="@drawable/arrow" />
 
         <ImageView
-            android:id="@+id/imageView31"
+            android:id="@+id/imageView314"
             android:layout_width="25dp"
             android:layout_height="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -473,105 +472,22 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout11"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.998">
-
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.778"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.32"
-            app:srcCompat="@drawable/settings_purple" />
-
-        <ImageView
-            android:id="@+id/imageView10"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.469"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.32"
-            app:srcCompat="@drawable/caht" />
-
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.155"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.32"
-            app:srcCompat="@drawable/image_14" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Beranda"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.131"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.868" />
-
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Chat"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.468"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.868" />
-
-        <TextView
-            android:id="@+id/textView18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Pengaturan"
-            android:textColor="@color/purple_old"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.813"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.868" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ke123"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="15dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="15dp"
         android:background="@drawable/rounded_home_white"
         app:layout_constraintBottom_toBottomOf="@+id/constraintLayout11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.762">
 
         <TextView
-            android:id="@+id/textView45"
+            android:id="@+id/textView425"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pengaturan Chat"
@@ -583,7 +499,7 @@
             app:layout_constraintVertical_bias="0.516" />
 
         <ImageView
-            android:id="@+id/imageView31"
+            android:id="@+id/imageView323"
             android:layout_width="25dp"
             android:layout_height="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -595,7 +511,7 @@
             app:srcCompat="@drawable/dialogue" />
 
         <ImageView
-            android:id="@+id/imageView32"
+            android:id="@+id/imageView322"
             android:layout_width="20dp"
             android:layout_height="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -611,11 +527,12 @@
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="15dp"
+        android:layout_marginTop="108dp"
         android:layout_marginEnd="15dp"
         android:background="@drawable/rounded_home_white"
         app:layout_constraintBottom_toBottomOf="@+id/constraintLayout11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/constraintLayout13"
         app:layout_constraintVertical_bias="0.903">

@@ -13,5 +13,7 @@
     <color name="orange_son">#FFEEDE</color>
     <color name="orange_old">#F08A24</color>
     <color name="backcolor">#F5F6F8</color>
+    <color name="light_grey">#F2F2F2</color>
+
 
 </resources>
